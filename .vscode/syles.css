@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "poppinsregular";
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+/* Poppins font */
+@font-face {
+  font-family: "poppinsbold";
+  src: url("../fonts/poppins-bold-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "poppinsextralight";
+  src: url("/Exclusive/fonts/Poppins-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "poppinslight";
+  src: url("../fonts/poppins-light-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsmedium";
+  src: url("../fonts/poppins-medium-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsregular";
+  src: url("../fonts/poppins-regular-webfont.woff2") format("woff2"),
+    url("../fonts/poppins-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "intersemibold";
+  src: url("../fonts/Inter_18pt-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "intermedium";
+  src: url("../fonts/Inter_18pt-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "interbold";
+  src: url("../fonts/Inter_24pt-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "interextrabold";
+  src: url("../fonts/Inter_18pt-ExtraBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+}
+#home #main {
+  display: flex;
+  flex-direction: column;
+}
+#home #main #topheader {
+  background: #000;
+  justify-content: end;
+  display: flex;
+  padding: 12px 0px;
+}
+#home #main #topheader .top_cont {
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+  width: 59%;
+  justify-content: space-between;
+}
+#home #main #topheader .top_cont .left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+#home #main #topheader .top_cont .left p {
+  color: #fafafa;
+  font-family: "poppinslight";
+  font-size: 14px;
+}
+#home #main #topheader .top_cont .left a {
+  color: #fafafa;
+  font-size: 14px;
+  font-family: "poppinsmedium";
+  text-decoration: underline;
+}
+#home #main #topheader .top_cont .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+#home #main #topheader .top_cont .right p {
+  color: #fafafa;
+  font-family: "poppinslight";
+  font-size: 14px;
+}
+#home #main #topheader .top_cont .right i {
+  color: #fafafa;
+  font-weight: lighter;
+  font-size: 20px;
+}
+#home #main header {
+}
+#home #main header .header_cont {
+  padding-block: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#home #main header .header_cont .logo_container {
+  margin: 10px;
+}
+#home #main header .header_cont .logo_container h1 {
+  color: #000000;
+  font-family: "interextrabold";
+  font-size: 24px;
+  font-weight: bolder;
+}
+#home #main header .header_cont nav {
+}
+#home #main header .header_cont nav ul {
+  display: flex;
+  gap: 55px;
+}
+#home #main header .header_cont nav ul li {
+}
+#home #main header .header_cont nav ul li a {
+  color: #000000;
+  font-size: 16px;
+}
+#home #main header .header_cont .search_container {
+  display: flex;
+  gap: 20px;
+}
+#home #main header .header_cont .search_container .input_container {
+  display: flex;
+  background: #f5f5f5;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 4px;
+}
+#home #main header .header_cont .search_container .input_container input {
+  color: #000000;
+  background: #f5f5f5;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  width: 166px;
+}
+#home #main header .header_cont .search_container .input_container .icon_cont {
+  width: 16px;
+  height: 16px;
+}
+#home
+  #main
+  header
+  .header_cont
+  .search_container
+  .input_container
+  .icon_cont
+  img {
+  width: 100%;
+  height: 100%;
+}
+#home #main header .header_cont .search_container .icon_cont {
+}
+#home #main header .header_cont .search_container .icon_cont img {
+}
+#home #main #spotlight {
+  display: flex;
+}
+
+#home #main #spotlight .spotlight_cont {
+  display: flex;
+  align-items: center;
+  background: #000;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+#home #main #spotlight .spotlight_cont .left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 61px;
+}
+#home #main #spotlight .spotlight_cont .left .apple {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+#home #main #spotlight .spotlight_cont .left .apple .img_cont {
+  width: 40px;
+  height: 49px;
+}
+#home #main #spotlight .spotlight_cont .left .apple .img_cont img {
+  width: 100%;
+  height: 100%;
+}
+#home #main #spotlight .spotlight_cont .left .apple p {
+  color: #fafafa;
+}
+#home #main #spotlight .spotlight_cont .left h2 {
+  color: #fafafa;
+}
+#home #main #spotlight .spotlight_cont .left button {
+  background: none;
+  display: flex;
+  color: #fafafa;
+}
+#home #main #spotlight .spotlight_cont .left button .icon_cont {
+}
+#home #main #spotlight .spotlight_cont .left button .icon_cont img {
+  width: 100%;
+  height: 100%;
+}
+#home #main #spotlight .right {
+}
+#home #main #spotlight .right .img_cont {
+  width: 610px;
+  height: 453px;
+}
+#home #main #spotlight .right .img_cont img {
+  width: 100%;
+  height: 100%;
+}
